@@ -1,0 +1,14 @@
+{
+  "name": "crakseo",
+  "version": "0.1.0",
+  "description": "Research keywords, search results, backlinks and page issues, inspect connected search properties, and submit owned URLs with explicit spending approval.",
+  "author": {
+    "name": "CrakSEO",
+    "email": "support@crakseo.com",
+    "url": "https://crakseo.com"
+  },
+  "homepage": "https://docs.crakseo.com",
+  "repository": "https://github.com/LoganOneal/crakseo-claude-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "keywords", "backlinks", "search-console", "indexing"]
+}

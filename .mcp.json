@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "crakseo-seo": {
+      "type": "http",
+      "url": "https://crakseo.com/mcp/seo"
+    },
+    "crakseo-url-indexing": {
+      "type": "http",
+      "url": "https://crakseo.com/mcp/url-indexing"
+    },
+    "crakseo-search-console": {
+      "type": "http",
+      "url": "https://crakseo.com/mcp/search-console"
+    }
+  }
+}
