@@ -13,6 +13,8 @@ This companion plugin provides a workflow skill and three remote MCP connections
 
 The root `.mcp.json` uses the same URLs as the corresponding connector submissions so the directory can pair them. It is generated from the CrakSEO catalog; it contains no credentials.
 
+The bundle includes the square 512px CrakSEO listing icon. The live privacy policy is linked in the Privacy and support section below.
+
 ## Setup
 
 1. Sign in to a CrakSEO account at https://crakseo.com.
