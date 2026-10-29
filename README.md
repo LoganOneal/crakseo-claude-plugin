@@ -15,6 +15,11 @@ The root `.mcp.json` uses the same URLs as the corresponding connector submissio
 
 The bundle includes the square 512px CrakSEO listing icon. The live privacy policy is linked in the Privacy and support section below.
 
+The manifest explicitly declares the listing name, bundled icon, documentation,
+support, privacy and terms links. Use Claude Code v2.1.281 or later for strict
+validation of these directory fields; earlier versions warn about fields that
+the current directory supports.
+
 ## Setup
 
 1. Sign in to a CrakSEO account at https://crakseo.com.
@@ -101,6 +106,7 @@ The plugin itself contains static instructions and connector declarations, with 
 - Terms: https://crakseo.com/terms
 - Documentation: https://docs.crakseo.com
 - Support and security reports: support@crakseo.com
+- Public plugin issues: https://github.com/LoganOneal/crakseo-claude-plugin/issues (never include credentials or private data)
 
 Never paste API keys, OAuth tokens, reviewer credentials or private property data into the plugin repository.
 

@@ -1,5 +1,6 @@
 {
   "name": "crakseo",
+  "displayName": "CrakSEO",
   "version": "0.1.1",
   "description": "SEO research and connected-site reporting. Google indexer: free IndexNow, Bing, sitemap and index checks; paid backlink force indexing",
   "author": {
@@ -8,6 +9,11 @@
     "url": "https://crakseo.com"
   },
   "homepage": "https://docs.crakseo.com",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://docs.crakseo.com/seo-mcp/connect",
+  "supportUrl": "https://github.com/LoganOneal/crakseo-claude-plugin/issues",
+  "privacyPolicyUrl": "https://crakseo.com/privacy",
+  "termsOfServiceUrl": "https://crakseo.com/terms",
   "repository": "https://github.com/LoganOneal/crakseo-claude-plugin",
   "license": "MIT",
   "keywords": ["google indexer", "google indexing", "page indexer", "website indexer", "web indexer", "indexnow", "submit website to google", "index checker", "google index checker", "submit url to google", "link indexer", "backlink indexer", "index backlinks", "seo indexer", "crawled currently not indexed", "discovered currently not indexed", "url indexer", "google crawl request", "indexing service", "link indexing service", "rapid indexing", "request indexing", "instant indexing", "fast indexing", "force indexing", "force crawl google", "seo", "keywords", "backlinks", "search-console"]
