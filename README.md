@@ -6,16 +6,16 @@ This companion plugin provides a workflow skill and three remote MCP connections
 
 ## What is included
 
-- **CrakSEO SEO Toolkit:** paid keyword, SERP, backlink and competitor research in one connection. Includes all seven focused SEO data toolsets at the same prices.
+- **CrakSEO SEO Data:** paid keyword, SERP, backlink and competitor research in one connection. Includes all seven focused SEO data toolsets at the same prices.
 - **CrakSEO URL Indexing:** Google indexer: free IndexNow, Bing, sitemap and index checks; paid backlink force indexing.
 - **CrakSEO Search Console:** free Google Search Console and Bing Webmaster Tools reporting and checks for your own connected properties.
 - **SEO workflow skill:** chooses the relevant steps, checks prerequisites and spending approval, and reports data with appropriate caveats.
 
 The root `.mcp.json` uses the same URLs as the corresponding connector submissions so the directory can pair them. It is generated from the CrakSEO catalog; it contains no credentials.
 
-Choose the connection for the job; you do not need all ten servers. The SEO
-Toolkit does not include the separate Console or URL Indexing tools. Backlink
-analysis uses the toolkit; submitting backlinks for indexing uses URL Indexing's
+Choose the connection for the job; you do not need all ten servers. SEO Data
+does not include the separate Console or URL Indexing tools. Backlink
+analysis uses SEO Data; submitting backlinks for indexing uses URL Indexing's
 paid Force indexing offering after an exact quote and owner approval.
 
 Research limits: rank checks are snapshots, not scheduled tracking; site audits
@@ -89,7 +89,7 @@ The plugin loads the umbrella toolkit instead of seven overlapping data servers.
 
 | Product | Endpoint |
 | --- | --- |
-| SEO Toolkit | https://crakseo.com/mcp/seo |
+| SEO Data | https://crakseo.com/mcp/seo |
 | Google SERP API | https://crakseo.com/mcp/serp-api |
 | Keyword Research | https://crakseo.com/mcp/keyword-research |
 | Backlink Checker | https://crakseo.com/mcp/backlinks |
