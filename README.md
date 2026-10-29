@@ -6,16 +6,16 @@ This companion plugin provides a workflow skill and three remote MCP connections
 
 ## What is included
 
-- **CrakSEO SEO Data:** paid keyword, SERP, backlink and competitor research in one connection. Includes all seven focused SEO data toolsets at the same prices.
+- **CrakSEO SEO Tools:** paid keyword, SERP, backlink and competitor research in one connection. Includes all seven focused SEO data toolsets at the same prices.
 - **CrakSEO URL Indexing:** Google indexer: free IndexNow, Bing, sitemap and index checks; paid backlink force indexing.
 - **CrakSEO Search Console:** free Google Search Console and Bing Webmaster Tools reporting and checks for your own connected properties.
 - **SEO workflow skill:** chooses the relevant steps, checks prerequisites and spending approval, and reports data with appropriate caveats.
 
 The root `.mcp.json` uses the same URLs as the corresponding connector submissions so the directory can pair them. It is generated from the CrakSEO catalog; it contains no credentials.
 
-Choose the connection for the job; you do not need all ten servers. SEO Data
+Choose the connection for the job; you do not need all ten servers. SEO Tools
 does not include the separate Console or URL Indexing tools. Backlink
-analysis uses SEO Data; submitting backlinks for indexing uses URL Indexing's
+analysis uses SEO Tools; submitting backlinks for indexing uses URL Indexing's
 paid Force indexing offering after an exact quote and owner approval.
 
 Research limits: rank checks are snapshots, not scheduled tracking; site audits
@@ -43,6 +43,9 @@ Connection instructions: https://docs.crakseo.com/seo-mcp/connect
 
 ## Examples
 
+- "How do I check keyword search volume and CPC? Compare these terms after I approve the API-credit budget."
+- "Where does my website rank on Google for these keywords? Check current positions after I approve the API-credit cost."
+- "How do I check a competitor's backlinks? Show its link summary and referring domains within my approved budget."
 - "Check my API credit balance and whether data calls are enabled. Do not make a paid call."
 - "After I approve the API-credit budget, compare search volume and difficulty for these keywords in the US."
 - "List my connected properties and summarize the top queries by clicks for the property I choose over the last 28 days."
@@ -89,7 +92,7 @@ The plugin loads the umbrella toolkit instead of seven overlapping data servers.
 
 | Product | Endpoint |
 | --- | --- |
-| SEO Data | https://crakseo.com/mcp/seo |
+| SEO Tools | https://crakseo.com/mcp/seo |
 | Google SERP API | https://crakseo.com/mcp/serp-api |
 | Keyword Research | https://crakseo.com/mcp/keyword-research |
 | Backlink Checker | https://crakseo.com/mcp/backlinks |
