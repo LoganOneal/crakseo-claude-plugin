@@ -1,16 +1,16 @@
 {
   "mcpServers": {
     "crakseo-seo": {
-      "type": "http",
+      "type": "streamableHttp",
       "url": "https://crakseo.com/mcp/seo"
     },
-    "crakseo-url-indexing": {
-      "type": "http",
-      "url": "https://crakseo.com/mcp/url-indexing"
-    },
     "crakseo-search-console": {
-      "type": "http",
+      "type": "streamableHttp",
       "url": "https://crakseo.com/mcp/search-console"
+    },
+    "crakseo-url-indexing": {
+      "type": "streamableHttp",
+      "url": "https://crakseo.com/mcp/url-indexing"
     }
   }
 }

@@ -1,8 +1,12 @@
-# CrakSEO for Claude
+# CrakSEO for Claude, Cline and cursor.directory
 
-This companion plugin provides a workflow skill and three remote MCP connections for SEO research, connected-site reporting and URL submission. It uses CrakSEO's existing services; it does not run a local SEO server or require a browser extension.
+This repository is the public install bundle for CrakSEO's hosted SEO MCP servers. It ships a Claude companion plugin, a Cline **`llms-install.md`** guide, and a root **`.mcp.json`** with server URLs only (no secrets).
 
-**Pre-release:** this is a reviewable plugin source bundle, not evidence of directory approval or production readiness. All ten products and this plugin must pass the common release gate before any submission. The public source repository is https://github.com/LoganOneal/crakseo-claude-plugin; it contains only this static MIT-licensed plugin, not the private CrakSEO application.
+- **Cline MCP Marketplace:** follow root [`llms-install.md`](./llms-install.md). Quickstart: https://docs.crakseo.com/quickstarts/cline
+- **cursor.directory:** use the same MCP URLs in [`.mcp.json`](./.mcp.json); authenticate with a CrakSEO API key (`Authorization: Bearer YOUR_CRAKSEO_API_KEY`).
+- **Claude Code plugin:** workflow skill plus OAuth MCP connections below.
+
+**Pre-release:** this is a reviewable plugin source bundle, not evidence of directory approval or production readiness. The public source repository is https://github.com/LoganOneal/crakseo-claude-plugin; it contains only this static MIT-licensed plugin, not the private CrakSEO application.
 
 ## What is included
 
