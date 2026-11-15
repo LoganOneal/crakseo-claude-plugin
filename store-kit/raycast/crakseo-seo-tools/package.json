@@ -1,0 +1,102 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "crakseo-seo-tools",
+  "title": "CrakSEO SEO Tools",
+  "description": "Keyword search volume, live Google results and backlink checks from CrakSEO's SEO data API",
+  "icon": "extension-icon.png",
+  "author": "crakseo",
+  "categories": ["Developer Tools", "Data"],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "keyword-volume",
+      "title": "Keyword Search Volume",
+      "subtitle": "CrakSEO",
+      "description": "Monthly Google searches, CPC, keyword difficulty and intent for one or more keywords",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "keywords",
+          "placeholder": "keywords, comma separated",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "google-serp",
+      "title": "Google SERP",
+      "subtitle": "CrakSEO",
+      "description": "Live Google results for a keyword, with SERP features and AI Overview sources",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "keyword",
+          "placeholder": "keyword",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "check-backlinks",
+      "title": "Check Backlinks",
+      "subtitle": "CrakSEO",
+      "description": "Backlinks, referring domains, domain rank and spam score for a domain or URL",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "target",
+          "placeholder": "example.com",
+          "type": "text",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "preferences": [
+    {
+      "name": "apiKey",
+      "title": "API Key",
+      "description": "Your CrakSEO API key (starts with bidx_key_). Create one at crakseo.com/app/api/keys",
+      "type": "password",
+      "required": true
+    },
+    {
+      "name": "country",
+      "title": "Country",
+      "description": "Two-letter country code of the search market",
+      "type": "textfield",
+      "default": "US",
+      "required": false
+    },
+    {
+      "name": "language",
+      "title": "Language",
+      "description": "Language code of the search market, for example en or de",
+      "type": "textfield",
+      "default": "en",
+      "required": false
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.0",
+    "@raycast/utils": "^2.2.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.0.4",
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.10",
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "prepublishOnly": "echo \"\\n\\nIt seems like you are trying to publish the Raycast extension to npm.\\n\\nIf you did intend to publish it to npm, remove the \\`prepublishOnly\\` script and rerun \\`npm publish\\` again.\\nIf you wanted to publish it to the Raycast Store instead, use \\`npm run publish\\` instead.\\n\\n\" && exit 1",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
